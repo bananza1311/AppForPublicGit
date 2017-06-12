@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelHi: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        labelHi.text = "Hello World!"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
